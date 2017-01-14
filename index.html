@@ -7,11 +7,11 @@
 	<!--All CSS Links-->
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	
-	<link rel="stylesheet" type="text/css" href="css/style_large.css" />
+	<link rel="stylesheet" type="text/css" href="css/style_small.css" media='screen and (min-width:50px) and (max-width:500px)' />
+
+	<link rel="stylesheet" type="text/css" href="css/style_medium.css" media='screen and (min-width:501px) and (max-width:800px)' /> 
 	
-	<link rel="stylesheet" type="text/css" href="css/style_medium.css" media="only screen and (min-width:501px) and (max-width:800px)" /> 
 	
-	<link rel="stylesheet" type="text/css" href="css/style_small.css" media="only screen and (min-width:50px) and (max-width:500px)" />
 	<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -20,19 +20,18 @@
     <![endif]-->
     <style type="text/css">
     body{
-		background-color: #CA1717;
+		background-color: #575c7a;
 		line-height: 1.5em;
 		font-family: Tahoma;
 		font-size: 14px;
-		width: 100%;
-		height: 100%;
+		color: #515673;
 	}
     </style>
 
-
 </head>
-<body>
 
+<body>
+	<div class="body">
 		<div class="page">
 			
 			<header>
@@ -50,7 +49,7 @@
 					<div class="content">
 						<h3>Promo Heading here</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo quod porro blanditiis voluptate error, numquam harum vitae, atque ad aspernatur in delectus autem minima?</p>
-						<p><a href="">Visit our blog</a></p>
+						<p><a class="cta" href="">Visit our blog</a></p>
 					</div>
 				
 				</div>
@@ -60,7 +59,7 @@
 					<div class="content">
 						<h3>Promo Heading here</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo quod porro blanditiis voluptate error, numquam harum vitae, atque ad aspernatur in delectus autem minima?</p>
-						<p><a href="">Read the article</a></p>
+						<p><a class="cta" href="">Read the article</a></p>
 					</div>	
 
 				</div>
@@ -71,7 +70,7 @@
 					<div class="content">
 						<h3>Promo Heading here</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo quod porro blanditiis voluptate error, numquam harum vitae, atque ad aspernatur in delectus autem minima?</p>
-						<p><a href="">Learn More</a></p>
+						<p><a class="cta"  href="">Learn More</a></p>
 					</div>
 				</div>
 
@@ -89,5 +88,5 @@
 			</footer>
 		</div>
 	
-	
+	</div>
 </body>
